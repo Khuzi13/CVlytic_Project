@@ -30,9 +30,7 @@
         {% comment %} {{request.path}} {% endcomment %}
         <a class='{% if request.path == '/' %} active {% endif %}' href="/">Home Page</a>
         <a href="/#about">About Us</a>
-        <a class='{% if request.path == '/cv-checker/' %} active {% endif %}'  href="/cv-checker/">CV Checker</a>
-        <a class= btn-primary href="/recruiter/" >Recruiter</a>
-        <a class= btn-primary href="/recruiter_result/" >recruiter_result</a>  <!--ye show nh hoga web per-->
+        <a class='{% if request.path == '/cv-checker/' %} active {% endif %}'  href="/cv-checker/">CV Checker</a> <!--ye show nh hoga web per-->
         <a class= btn-primary href="/cv-checker/" >Get Started</a> <!--ye show nh hoga web per-->
         <a class= btn-primary href="/contact_us/">Contact Us</a>
     <!-- Navigation -->
@@ -97,4 +95,5 @@
         </div>  
 
     </nav>
+
 
