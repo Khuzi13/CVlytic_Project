@@ -24,8 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homePage, name='home'),
     path('cv-checker/', views.cv_checker, name='cv_checker'),
-    path('recruiter/', views.recruiter, name='recruiter'),
-    path('recruiter_result/', views.recruiter_result, name='recruiter_result'),
     path('upload_file/', views.upload_file, name='upload_file'),
     path('result/', views.result, name='result'),
     path('contact_us/', views.contact_us, name='contact_us'),
@@ -37,3 +35,4 @@ if settings.DEBUG:
         settings.MEDIA_URL,
         document_root=settings.MEDIA_ROOT
     )
+
